@@ -1,5 +1,5 @@
 # Blog Generation Application
-- LLaMA 2 for the model.
+- LLama 2 for the model.
 - LangChain for the language model handling.
 - Streamlit for the web interface.
 
@@ -13,11 +13,11 @@ https://www.kaggle.com/datasets/rodrigostallsikora/llama-2-7b-chat-ggmlv3-q8-0-b
 ## Imports:
 - streamlit is used for creating the web interface.
 - PromptTemplate from langchain.prompts helps in creating the prompt for the language model.
-- CTransformers from langchain_community.llms is used to load and interact with the LLaMA 2 model.
+- CTransformers from langchain_community.llms is used to load and interact with the LLama 2 model.
 
 ## Function to Get Response from LLama 2 Model:
 - Parameters: input_text (the topic of the blog), no_words (desired word count), and blog_style (target audience or style).
-- Model Loading: Loads the LLaMA 2 model using CTransformers with specified configuration (max_new_tokens limits the generated text length, temperature controls the randomness).
+- Model Loading: Loads the LLama 2 model using CTransformers with specified configuration (max_new_tokens limits the generated text length, temperature controls the randomness).
 - Prompt Template: Defines the template for the blog prompt.
 - Prompt Creation: Creates a prompt using the input variables.
 - Response Generation: Generates and prints the response from the model based on the formatted prompt.
