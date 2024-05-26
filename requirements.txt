@@ -1,0 +1,8 @@
+uvicorn
+sentence-transformers
+ctransformers
+langchain
+python-box
+streamlit
+langchain_community
+-e .
